@@ -19,19 +19,21 @@ header > .tudo{
     justify-content: space-between;
     align-items: center;
     padding: 10px 30px;
-    background-color: #000000;
     position: sticky;
     top: 0;
     z-index: 100;
     width: 100%;
    
 }
+    
 
 header{ 
     display: flex;
     flex-direction: column;
     width: 100%;
     position: fixed;
+     background: linear-gradient(to right ,#000000,#000000d8);
+    
 }
 
 .nav-mobile {
@@ -73,6 +75,7 @@ header h1 {
     color: #CD2422;
     font-size: 1.8rem;
     letter-spacing: 2px;
+    font-size: 25px;
 }
 
 nav a {
@@ -89,7 +92,6 @@ nav a:hover {
 
 /* === Hero Section === */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     height: 90vh;
     display: flex;
     justify-content: center;
@@ -255,13 +257,17 @@ footer {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        background-color: #000000;
+        background: linear-gradient(#000000,#3636361a);
         position: relative;
     }
 
     
     
     .family{
+        display: block;
+    }
+
+    .logo {
         display: none;
     }
 
@@ -316,6 +322,7 @@ footer {
 
     header h1 {
         font-size: 1.5rem;
+        font-weight: bolder;
     }
 
     nav {
