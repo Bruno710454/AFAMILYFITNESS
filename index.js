@@ -14,4 +14,14 @@ function mostrar(){
         cc=0
 
     }
+
+}
+
+function flutuar(){
+    var hero = document.getElementById("hero1")
+    hero.style.marginTop="200px"
+    alert("teste")
+    
+
+
 }
