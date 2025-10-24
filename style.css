@@ -47,6 +47,7 @@ header{
 
 .menu { 
     display: none;
+    padding: 20px;
     
 }
 
@@ -231,13 +232,23 @@ footer {
 @media (max-width: 992px) {
     header > .tudo {
         display: flex;
-        justify-content:flex-end;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
 
     }
 
-    .tudo{
-        padding: 0px 0px ;
+    .inicio {
+        display: flex;
+        justify-content: flex-end;
     }
+
+    #img {
+        display: none;
+    }
+
+    
 
     header {
         display: flex;
@@ -248,17 +259,10 @@ footer {
         position: relative;
     }
 
-    .inicio{
-        padding: 0px;
-        width: 100%;
+    
+    
+    .family{
         display: none;
-        justify-content: flex-start;
-
-    }
-
-    .tudo {
-        display: flex;
-        justify-content: flex-end;
     }
 
  
@@ -269,9 +273,11 @@ footer {
     }
     .menu {
         display: block;
+
         
 
     }
+
 
     .nav-mobile{
         display: block;
