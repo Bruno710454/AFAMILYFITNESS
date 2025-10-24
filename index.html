@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afamilyfitness - Academia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header >
+        <div class="tudo">
+            <div class="inicio">
+                <h1>Afamilyfitness</h1>
+                <img src="./Captura de tela 2025-10-24 094847 (1).png" alt="logo" class="logo">
+            </div>
+            <nav>
+                <a href="#sobre" class="nav">Quem Somos</a>
+                <a href="#beneficios" class="nav">Benefícios</a>
+                <a href="#contato" class="nav">Contato</a>
+                <div class="menu" onclick="mostrar()" >
+                    <img src="./menu-lateral.png" alt="">
+                </div>
+            </nav>
+        </div>
+        <nav class="nav-mobile" id="head">
+            <a href="#sobre" >Quem Somos</a>
+            <a href="#beneficios">Benefícios</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div>
+            <h2>Transforme seu corpo e sua mente</h2>
+            <p>Junte-se à Afamilyfitness e alcance o melhor de você!</p>
+            <button class="btn">Matricule-se agora</button>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <h2>Quem Somos Nós</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Praesent tincidunt neque in sem facilisis, vel pulvinar libero pharetra. 
+            Aliquam erat volutpat. Proin nec mauris ut erat euismod convallis.
+        </p>
+    </section>
+
+    <section id="beneficios">
+        <h2>Benefícios da Musculação</h2>
+        <div class="beneficios-container">
+            <div class="beneficio">
+                <h3>💪 Força e Resistência</h3>
+                <p>Melhore seu desempenho físico e fortaleça seus músculos com treinos personalizados.</p>
+            </div>
+            <div class="beneficio">
+                <h3>🧠 Saúde Mental</h3>
+                <p>Reduza o estresse e melhore o humor através da prática regular de exercícios.</p>
+            </div>
+            <div class="beneficio">
+                <h3>❤️ Qualidade de Vida</h3>
+                <p>Tenha mais disposição e energia para aproveitar o melhor do seu dia a dia.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <form>
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu e-mail" required>
+            <textarea placeholder="Sua mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        © 2025 Afamilyfitness | Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>
+<script src="./index.js"></script>
