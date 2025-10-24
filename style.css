@@ -246,6 +246,7 @@ footer {
         justify-content: space-around;
         align-items: center;
         background-color: #000000;
+        position: relative;
     }
 
     .inicio{
@@ -290,6 +291,9 @@ footer {
 
     section {
         padding: 60px 8%;
+    }
+    .tudo{ 
+        height: 100px;
     }
 }
 
